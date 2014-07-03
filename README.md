@@ -14,7 +14,7 @@ Grab the css from above, and download the following sprites:
 2. [sprite-icon-32.png](https://raw.githubusercontent.com/creesch/FlatBlue-css-theme-for-reddit/master/sprite-icon-32.png)
 
 
-Go to /r/<yoursubreddit>/about/stylesheet 
+Go to /r/yoursubreddit/about/stylesheet 
 
 You'll find one text area where you can paste the css and below that options for uploading the images. 
 
