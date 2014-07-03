@@ -218,6 +218,11 @@ a#header-img {
     margin-top: 3px;
 }
 
+#header-img {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
 .pagename {
     padding-bottom: 2px;
     display: inline-block;
