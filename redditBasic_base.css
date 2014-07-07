@@ -451,7 +451,7 @@ Sidebar
 	text-transform: uppercase;
 	font-weight: normal!important;
 	display: block;
-	padding-left: 2px;
+	padding: 3px;
 	font-size: 140%;
 	background: #FF6766;
 }
@@ -471,7 +471,7 @@ Sidebar
 	text-transform: uppercase;
 	font-weight: normal!important;
 	display: block;
-	padding-left: 2px;
+	padding: 3px;
 	font-size: 140%;
 	background: #5F99CF;
 }
@@ -491,7 +491,7 @@ Sidebar
 	text-transform: uppercase;
 	font-weight: normal!important;
 	display: block;
-	padding-left: 2px;
+	padding: 3px;
 	font-size: 140%;
 	background: #97CE68;
 }
