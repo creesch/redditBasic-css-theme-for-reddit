@@ -696,7 +696,7 @@ p.tagline a,
 .flat-list.buttons a {
     text-decoration: none !important;
     font-weight: normal !important;
-    color: #888 !important;
+    color: #888;
 }
 
 p.tagline a:hover, 
