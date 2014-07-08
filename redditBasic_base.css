@@ -2670,7 +2670,7 @@ RES nightmode
 
 /* the subscribe and res buttons  */
 
-.res-nightmode .subButtons .RESshortcutside, .subButtons .RESDashboardToggle {
+.res-nightmode .subButtons .RESshortcutside, .res-nightmode .subButtons .RESDashboardToggle {
     color: #CCC;
 }
 
