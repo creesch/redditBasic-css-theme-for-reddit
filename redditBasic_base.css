@@ -1,4 +1,4 @@
-/* == redditBassic reddit CSS Theme v1.1 - (http://www.reddit.com/r/redditBasic/)== */
+/* == redditBassic reddit CSS Theme v1.2 - (http://www.reddit.com/r/redditBasic/)== */
 
 
 /*----------------------
@@ -267,9 +267,13 @@ Linklisting
 
 /*----------------------
 
-Sidebar
+Link flair
 
 ----------------------*/ 
+
+.stickied {
+    border-right: 10px solid #282  !important;
+}
 
 .flair, .linkflairlabel {
     border: 0;
@@ -691,12 +695,14 @@ Commentarea
 
 p.tagline a, 
 .tagline a, 
-.comment .tagline a.author, 
 .menuarea a, 
 .flat-list.buttons a {
     text-decoration: none !important;
     font-weight: normal !important;
     color: #888;
+}
+.comment .tagline a.author {
+    font-weight: bold !important;
 }
 
 p.tagline a:hover, 
@@ -2738,4 +2744,4 @@ border-top: solid 10px #303030!important;
 	color: #CCC;
 }
 
-/* == redditBassic reddit CSS Theme v1.1 - (http://www.reddit.com/r/redditBasic/)== */
+/* == redditBassic reddit CSS Theme v1.2 - (http://www.reddit.com/r/redditBasic/)== */
