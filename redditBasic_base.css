@@ -119,6 +119,14 @@ html {
     margin: 0;
 }
 
+body .content .sitetable .thing.spam, body .sitetable .thing.spam.deleted.link.self {
+    border: solid 2px #FA8072 !important;
+}
+
+body .content .sitetable .thing.spam, body .sitetable .thing.spam.deleted.link.self {
+    border: solid 2px #FA8072 !important;
+}
+
 /* Make distinguished users stand out more (mods, op and friends) */
 .tagline .author.submitter {
 	color: white !important;
