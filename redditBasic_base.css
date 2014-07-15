@@ -103,9 +103,9 @@ html {
 {
 	color: #000000 !important;
 	border-bottom: 1px solid #BDBAB4;
-	letter-spacing: 2px;
-	text-transform: uppercase;
+	letter-spacing: 1px;
 	font-weight: normal !important;
+	line-height: initial;
 	display: block;
 	padding-left: 2px;
 	margin: 5px 0px;
