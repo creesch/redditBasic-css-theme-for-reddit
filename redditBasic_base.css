@@ -1,4 +1,4 @@
-/* == redditBassic reddit CSS Theme v1.2 - (http://www.reddit.com/r/redditBasic/)== */
+/* == redditBassic reddit CSS Theme v1.3 - (http://www.reddit.com/r/redditBasic/)== */
 
 
 /*----------------------
@@ -58,6 +58,23 @@ body .side .title,
 .flat-list.buttons, .panestack-title ,
 .panestack-title .title {
     font-size: 10px !important;
+}
+
+.md h1, .commentarea h1, .wiki-page .wiki-page-content .md .wiki h1 { 
+    font-size: 1.6em !important;
+    font-weight: bold;
+}
+
+.md h2, .commentarea h2, .wiki-page .wiki-page-content .md .wiki h2
+{ 
+    font-size: 1.4em;
+    font-weight: bold;    
+    font-style: italic;
+}
+.md h3, .commentarea h3, .wiki-page .wiki-page-content .md .wiki h3
+{ 
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 
@@ -399,6 +416,15 @@ Sidebar
     display:none;
 }
 
+body .side .md p {			
+    margin: 5px 0 !important;			
+}
+
+.side .md .-blocks, .side .md .-lists, .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol {
+    line-height: 1.5em!important;
+}
+
+
 /* Link info*/
 .linkinfo {
     background-color: white;
@@ -460,8 +486,9 @@ Sidebar
 .side h6 {
 	color: #FFF!important;
 	letter-spacing: 2px;
-	text-transform: uppercase;
 	font-weight: normal!important;
+	text-decoration: none;
+	margin: 0;
 	display: block;
 	padding: 3px;
 	font-size: 140%;
@@ -480,8 +507,8 @@ Sidebar
 .side h5 {
 	color: #FFF!important;
 	letter-spacing: 2px;
-	text-transform: uppercase;
 	font-weight: normal!important;
+	margin: 0;
 	display: block;
 	padding: 3px;
 	font-size: 140%;
@@ -500,8 +527,8 @@ Sidebar
 .side h4 {
 	color: #FFF!important;
 	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-weight: normal!important;
+	font-weight: normal !important;
+	margin: 0;
 	display: block;
 	padding: 3px;
 	font-size: 140%;
@@ -526,7 +553,6 @@ Sidebar
     color: #FFF;
     display: block;    
     letter-spacing: 2px;
-    text-transform: uppercase;
     border-radius: 3px;
     background: none;
     border: 0;
@@ -547,7 +573,6 @@ Sidebar
 .morelink {
     display: block;    
     letter-spacing: 2px;
-    text-transform: uppercase;
     border-radius: 3px;
     background: none;
     border: 0;
@@ -737,6 +762,8 @@ p.tagline a:hover,
     border: 0;
 }
 
+
+
 .content .usertext-body, body .content .usertext-body .md { 
 margin-left: 0px;
 }
@@ -791,7 +818,10 @@ body .content .md blockquote {
 /* code numbering, based on the css found at /r/modtools */
 .md pre {
     background-color: #F5F5F5 !important;
+    border: 0;
+    overflow: visible !important;
     border-left: 31px solid #5F99CF;
+    padding: 0;
     position: relative;
     margin-top: 25px;
     line-height: 15px;
@@ -804,7 +834,9 @@ body .content .md blockquote {
 }
 
 .md pre code {
-    padding: 15px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 5px;
     overflow: auto;
     display: block;
     line-height: 15px;
@@ -822,6 +854,7 @@ body .content .md blockquote {
     background-position: 0 -2516px;
 }
 
+
 .md pre:before {
     height: 100%;
     color: white;
@@ -833,7 +866,6 @@ body .content .md blockquote {
     overflow: hidden;
     content: "#   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250";
 }
-
 /* nested commentary boxes */
 
 .sitetable.nestedlisting>.comment, .res .sitetable.nestedlisting>.comment {
@@ -2617,7 +2649,6 @@ RES nightmode
     color: #FFF;
     display: block;    
     letter-spacing: 2px;
-    text-transform: uppercase;
     border-radius: 3px;
     background: none;
     border: 0;
@@ -2625,7 +2656,7 @@ RES nightmode
     line-height: 34px;
     height: 34px;
     text-align: left;
-    font-size: 150%;
+    font-size: 1350%;
     padding-left: 38px;
     background: url(%%sprite-icon-32%%) no-repeat top left;
     background-position: 2px -7127px;
@@ -2638,7 +2669,6 @@ RES nightmode
 .res-nightmode .morelink {
     display: block;    
     letter-spacing: 2px;
-    text-transform: uppercase;
     border-radius: 3px;
     background: none;
     border: 0;
@@ -2752,4 +2782,4 @@ border-top: solid 10px #303030!important;
 	color: #CCC;
 }
 
-/* == redditBassic reddit CSS Theme v1.2 - (http://www.reddit.com/r/redditBasic/)== */
+/* == redditBassic reddit CSS Theme v1.3 - (http://www.reddit.com/r/redditBasic/)== */
