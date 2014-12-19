@@ -119,7 +119,6 @@ html {
 .md h3, .commentarea h3, .wiki-page .wiki-page-content .md .wiki h3
 {
 	color: #000000 !important;
-	border-bottom: 1px solid #BDBAB4;
 	letter-spacing: 1px;
 	font-weight: normal !important;
 	line-height: initial;
@@ -814,6 +813,16 @@ body .content .md blockquote {
 .md td, .md th {
     border: 1px solid #C1BFBF !important;
 }
+
+/* inline code */ 
+code {
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-size: 110%;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
 
 /* code numbering, based on the css found at /r/modtools */
 .md pre {
