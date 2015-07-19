@@ -1,4 +1,4 @@
-/* == redditBassic reddit CSS Theme v1.3 - (http://www.reddit.com/r/redditBasic/)== */
+/* == redditBassic reddit CSS Theme v1.4 - (http://www.reddit.com/r/redditBasic/)== */
 
 
 /*----------------------
@@ -482,7 +482,7 @@ body .side .md p {
 
 
 /* colored boxes in the sidebar idea comes from rolmos's edurne theme*/
-.side h6 {
+body .side .md h6 {
 	color: #FFF!important;
 	letter-spacing: 2px;
 	font-weight: normal!important;
@@ -494,7 +494,7 @@ body .side .md p {
 	background: #FF6766;
 }
 
-.side h6+blockquote {
+body .side .md h6+blockquote {
 	display: block;
 	background-color: #FEF0F0;
 	border: 0;
@@ -503,7 +503,7 @@ body .side .md p {
 	padding: 5px;
 }
 
-.side h5 {
+body .side .md h5 {
 	color: #FFF!important;
 	letter-spacing: 2px;
 	font-weight: normal!important;
@@ -514,7 +514,7 @@ body .side .md p {
 	background: #5F99CF;
 }
 
-.side h5+blockquote {
+body .side .md h5+blockquote {
 	display: block;
 	background-color: #CEE3F8;
 	border: 0;
@@ -523,7 +523,7 @@ body .side .md p {
 	padding: 5px;
 }
 
-.side h4 {
+body .side .md h4 {
 	color: #FFF!important;
 	letter-spacing: 2px;
 	font-weight: normal !important;
@@ -534,13 +534,20 @@ body .side .md p {
 	background: #97CE68;
 }
 
-.side h4+blockquote {
+body .side .md h4+blockquote {
 	display: block;
 	background-color: #E9FFE6;
 	border: 0;
 	color: #000!important;
 	margin: 0px 0 5px 0 !important;
 	padding: 5px;
+}
+
+body .side .md h6+blockquote ul,
+body .side .md h5+blockquote ul, 
+body .side .md h4+blockquote ul {
+    padding-left: 20px;
+    
 }
 
 
@@ -2791,4 +2798,4 @@ border-top: solid 10px #303030!important;
 	color: #CCC;
 }
 
-/* == redditBassic reddit CSS Theme v1.3 - (http://www.reddit.com/r/redditBasic/)== */
+/* == redditBassic reddit CSS Theme v1.4 - (http://www.reddit.com/r/redditBasic/)== */
