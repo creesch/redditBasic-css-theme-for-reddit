@@ -60,18 +60,18 @@ body .side .title,
     font-size: 10px !important;
 }
 
-.md h1, .commentarea h1, body .wiki-page .wiki-page-content .md h1 { 
+.md h1, .commentarea h1, body.wiki-page .wiki-page-content .md h1 { 
     font-size: 1.6em !important;
     font-weight: bold;
 }
 
-.md h2, .commentarea h2, body .wiki-page .wiki-page-content .md h2
+.md h2, .commentarea h2, body.wiki-page .wiki-page-content .md h2
 { 
     font-size: 1.4em;
     font-weight: bold;    
     font-style: italic;
 }
-.md h3, .commentarea h3, body .wiki-page .wiki-page-content .md h3
+.md h3, .commentarea h3, body.wiki-page .wiki-page-content .md h3
 { 
     font-size: 1.2em;
     font-weight: bold;
