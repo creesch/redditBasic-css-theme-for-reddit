@@ -839,7 +839,7 @@ code {
     border-left: 31px solid #5F99CF;
     padding: 0;
     position: relative;
-    margin-top: 25px;
+    margin-top: 25px !important;
     line-height: 15px;
     font-family: "Courier New",courier,monospace;
 }
