@@ -1,4 +1,4 @@
-/* == redditBassic reddit CSS Theme v1.4 - (http://www.reddit.com/r/redditBasic/)== */
+/* == redditBassic reddit CSS Theme v1.4.1 - (http://www.reddit.com/r/redditBasic/)== */
 
 
 /*----------------------
@@ -275,7 +275,7 @@ Linklisting
 
 .linklisting .odd {
 	overflow: hidden !important;
-	padding: 5px 0px 5px 10px !important;
+	padding: 10px 0px 10px 10px!important;
 	background-color: #FAFAFA;
 	min-height: 50px !important;
 	margin: 0px;
@@ -283,11 +283,16 @@ Linklisting
 
 .linklisting .even {
 	overflow: hidden !important;
-	padding: 5px 0px 5px 10px !important;
+	padding: 10px 0px 10px 10px!important;
 	background-color: #F5F5F5;
 	min-height: 50px !important;
 	margin: 0px;
 }
+
+.link .title {
+    margin-bottom: 6px;
+}
+
 
 /*----------------------
 
@@ -327,6 +332,7 @@ Link flair
     font-weight: normal;
     overflow: visible;
     max-width: 98%;
+    margin-bottom: 5px;
 }
 
 .thing.linkflair {
@@ -2573,7 +2579,7 @@ RES nightmode
 
 .res-nightmode .linklisting .odd {
 	overflow: hidden !important;
-	padding: 5px 0px 5px 10px !important;
+	padding: 10px 0px 10px 10px!important;
 	min-height: 50px !important;
 	background-color: rgba(24, 24, 24, 0.2) !important;
 	margin: 0px;
@@ -2581,7 +2587,7 @@ RES nightmode
 
 .res-nightmode .linklisting .even {
 	overflow: hidden !important;
-	padding: 5px 0px 5px 10px !important;
+	padding: 10px 0px 10px 10px!important;
 	background-color: #303030;
 	min-height: 50px !important;
 	margin: 0px;
@@ -2798,4 +2804,4 @@ border-top: solid 10px #303030!important;
 	color: #CCC;
 }
 
-/* == redditBassic reddit CSS Theme v1.4 - (http://www.reddit.com/r/redditBasic/)== */
+/* == redditBassic reddit CSS Theme v1.4.1 - (http://www.reddit.com/r/redditBasic/)== */
